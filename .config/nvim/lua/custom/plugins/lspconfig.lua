@@ -154,6 +154,7 @@ return { -- LSP Configuration & Plugins
       },
 
       html = {
+        filetypes = {"html", "ejs", "pug"},
         capabilities = capabilities,
       },
 
