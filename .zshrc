@@ -154,7 +154,7 @@ bindkey -s ^f "tmux-sessionizer\n"
 export PATH=$HOME/.local/bin:$PATH
 
 # pnpm
-export PNPM_HOME="/home/cskb/.local/share/pnpm"
+export PNPM_HOME="/home/kyle/.local/share/pnpm"
 case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
